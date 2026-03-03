@@ -132,3 +132,93 @@
 // .then(()=>{
 //     return changeColor("green",2000)
 // })
+
+// --- API Fetching ---
+// What is API?
+// Application Programming Interface.
+// There are two methods to Fetch API
+
+// 1. fetch()
+// 2. axios()
+
+// let url="https://jsonplaceholder.typicode.com/posts"
+
+// fetch (url)
+
+// .then((res)=>{
+// console.log(res)
+//     return res.json()
+// })
+// .then((data)=>{
+//     console.log(data)
+//     for(let i=0;i<data.length;i++){
+//         console.log(data[i].title)
+//         let h1=document.createElement("h1")
+//         h1.innerText=data[i].title
+
+//      document.querySelector("body").append(h1)
+//     }
+// })
+
+// .catch((err)=>{
+//     console.log(err)
+// })
+
+
+// let url = "https://catfact.ninja/fact"
+
+// let ul=document.createElement("ul")
+
+// function getFact(){
+// fetch(url)
+
+// .then((res)=>{
+//     // console.log(res)
+//     return res.json()
+// })
+// .then((data)=>{
+//         console.log(data)
+//         let li=document.createElement("li")
+//         li.innerText=(data.fact)
+//         ul.append(li)
+//         document.querySelector("body").append(ul)
+// })
+
+// .catch((err)=>{
+//     console.log(err)
+// })
+
+// }
+
+// let url="https://dog.ceo/api/breeds/image/random"
+
+// function getNewDog(){
+
+// fetch(url)
+// .then((res)=>{
+//     // console.log(res)
+//     return res.json()
+// })
+// .then((data)=>{
+//     // console.log(data)
+//     let img=document.createElement("img")
+//     img.src=data.message
+//     img.style.height="100px"
+
+//     let div=document.querySelector(".dogs-img").append(img)
+// })
+// fetch(url0)
+
+// .then((res)=>{
+//     // console.log(res)
+//     return res.json()
+// })
+// .then((data)=>{
+//         console.log(data)
+//         let li=document.createElement("li")
+//         li.innerText=(data.fact)
+//         ul.append(li)
+//         document.querySelector("body").append(ul)
+// })
+
+// }

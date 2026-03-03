@@ -3,3 +3,14 @@
     width: 200px;
     border: 2px solid grey;
 }
+
+.dogs-img{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    gap: 10px;
+}
